@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8080
+dubbo:
+  application:
+    name: provider-ticket
+  registry:
+    port: 2181
+    address:
+  protocol:
+    port: 12398
+  scan:
+    base-packages: com.example.providerticket.service

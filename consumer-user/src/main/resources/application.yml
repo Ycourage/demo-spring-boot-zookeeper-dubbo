@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8082
+dubbo:
+  application:
+    name: consumer-user
+  registry:
+    port: 2181
+    address:
+  protocol:
+    port: 12398
